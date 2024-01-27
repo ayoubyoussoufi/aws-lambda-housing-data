@@ -18,6 +18,6 @@ Building end-to-end data pipeline in order to extract the zillow dataset into a 
 - AWS Quicksight
 - AWS Redshift
 
-## Architechture 
+## Architecture 
 
 ![Alt text](https://github.com/ayoubyoussoufi/aws-lambda-housing-data/blob/main/image.png)
