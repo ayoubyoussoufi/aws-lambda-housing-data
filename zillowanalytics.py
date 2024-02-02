@@ -1,3 +1,4 @@
+#import necessery packages
 from airflow import DAG
 from datetime import timedelta, datetime
 import json
@@ -15,7 +16,7 @@ with open('/home/ubuntu/airflow/config_api.json', 'r') as config_file:
 now = datetime.now()
 dt_now_string = now.strftime("%d%m%Y%H%M%S")
 
-# Define the S3 bucket
+# Define the S3 bucket to use in aws
 s3_bucket = 'cleaned-data-zone-csv-bucket'
 
 def extract_zillow_data(**kwargs):
