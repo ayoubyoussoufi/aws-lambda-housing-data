@@ -7,8 +7,7 @@ from airflow.operators.bash_operator import BashOperator
 from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
 from airflow.providers.amazon.aws.transfers.s3_to_redshift import S3ToRedshiftOperator
 
-#this is changes in 
-#script by ayoub 
+
 # Load JSON config file
 with open('/home/ubuntu/airflow/config_api.json', 'r') as config_file:
     api_host_key = json.load(config_file)
